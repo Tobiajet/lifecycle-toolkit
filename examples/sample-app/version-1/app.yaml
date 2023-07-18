@@ -19,3 +19,5 @@ spec:
   preDeploymentTasks:
     - container-sleep
     - python-secret
+  postDeploymentTasks:
+    - post-deployment-notification
